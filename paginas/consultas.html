@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!---------------------Cabecera con descripción, keywords, author, title y links------------------------->
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Página Ficticia de muestra para un estudio jurídico.">
+    <meta name="keywords" content="estudio, juridico, abogado, asesoramiento, legal,laboral, comercial, civil, penal">
+    <meta name="author" content="Las fabulosas CARINA y LUMA">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../imagenes/logoIconCarterAsociados.JPG">
+    <link type= "text/css" rel="stylesheet" href="../estilos/normalize.css">
+    <link rel="stylesheet" href="..//estilos/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="..//estilos/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css">
+    <link type="text/css" rel="stylesheet" href="../estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>Consultas - Carter y Asociados Estudio Jurídico</title>
+  </head>
+
+
+  <!------------------Cuerpo del documento. Es lo que va a visualizar el usuario--------------------------->
+
+  <body>
+
+    <!---------------Creación de encabezado con logo y barra de navegación------------------>
+      
+    <header class="fondoBlanco container-fluid">
+      <div class="row">
+        <div id="contenedorLogo">
+          <img id="logo" class="logo" src="../imagenes/logoEncabezadoCarterAsociados.png" alt="Logo Carter y Asociados" />
+        </div>
+        
+        <nav id="navbar">
+            <div id="contenedorMenu">
+              <a href="../index.html">Inicio</a>
+              <a href="./quienesSomos.html">Quiénes Somos</a>
+              <a href="./areas.html">Áreas de Prácticas</a>
+              <a href="./contacto.html">Contacto</a>
+              <a href="#">Hacé tu Consulta</a>
+            </div>
+        </nav> 
+      </div><!--fin row-->   
+    </header>
+
+    
+
+    <main>
+
+      <section class="fondoGris container-fluid">  
+          
+          <div class="row"> 
+            
+            <div class="sectionTitle">
+                <p><span>│</span></p>
+                <p>¿NECESITAS ASESORAMIENTO LEGAL?</p>
+                <H1>¡Hacé tu consulta ahora!</H1>
+                <p><span>│</span></p>
+            </div><!--fin sectionTitle-->
+
+            <div class="infoAbono">
+                <p>Realiza el abono de la consulta a través de Mercadopago o Transferencia Bancaria.</p>
+                <p>Completa el formulario con tus datos personales adjuntando el comprobante de pago.</p>
+                <p>Nos pondremos en contacto contigo para responder a tu solictud.</p>
+            </div><!--fin infoAbono-->
+
+          </div><!--fin row-->
+      </section>
+
+      <section class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="formasPago">
+                  <h2>MercadoPago</h2>
+            
+                  <button> <h3> <a href="">PAGAR CONSULTA</a> </h3> </button>
+                  
+                  <h2>Transferencia Bancaria</h2>
+                  <p>BANCO BLA BLA BLA</p>
+                  <p>Caja de Ahorro ######################</p>
+                  <p>CBU: 01234567890123456789</p>
+                  <p>Alias: BLA.BLA.BLA</p>
+                  <p>Titular: CARTER MARGARET</p>
+                  <p>CUIT/CUIL: ###############</p>
+              
+                  <h2>¡Muchas gracias!</h2>
+                  <h6>Nos pondremos en contacto contigo para responder a tu solicitud.</h6>
+                  
+              </div>
+            </div><!--fin formas de pago-->
+
+            <div class="col-md-6">
+                <!----------------------------------Creación de Formulario---------------------------------------->
+                <form class="formulario" action="mailto:?????@gmail.com" method="get">
+                    <br><br>
+                    <legend><h2>Envianos tu Consulta</h2></legend>
+                        <p><input type="text" id="nombre" required name="nombre" minlenght="5" maxlength="50" placeholder="Nombre y Apellido"></p>            
+                        <p><input type="number" required name="fono" minlenght="5" maxlength="50" placeholder= "Teléfono/WhatsApp"></p> 
+                        <p><input type="text" required name="asunto" minlenght="5" maxlength="50" placeholder= "Asunto"></p>         
+                        <p><textarea type="text" required name="consulta" cols="20" rows="6" placeholder= "Tu consulta"></textarea></p>
+
+                        <div class="row justify-content-center">
+                            <div class="col-1"></div>
+                            <div class="col-2"><input type="checkbox" id="acepto" required name="acepto" value="acepto"></div>
+                            <div class="col-9"><p class="text-start ">Acepto política de privacidad.</p></div>
+                        </div>
+                        
+                        <p>
+                          <button type="button" class="btnFormulario"  value="ENVIAR">Enviar</button>
+                          <button type="reset"  value="BORRAR">Borrar</button>
+                        </p>
+                </form>
+            </div><!--fin formulario-->
+        </div>
+      </section><!--fin sección-->
+
+    </main>
+
+
+
+    <!-------------------------------------------Footer--------------------------------------------------------------------------->
+    <footer id="piePagina " class="container-fluid fondoGris">
+
+        
+        
+      <div class="row align-items-start">
+          <div class="sectorFooter col-lg">
+              <img src="../imagenes/logoPiePaginaCarterAsociados.png" alt="Logo de pie de página de Carter y Asociados">
+              <br><br>
+              <p>Más de 30 años de excelente trayectoria en el asesoramiento legal y defensa en juicio para personas y empresas de la región.</p>
+              <br><br>
+          </div>
+          <div class="sectorFooter col">
+              <h2>Links</h2> 
+              <br>
+              <p><a href="./quienesSomos.html">Quiénes Somos</a></p>
+              <hr>
+              <p><a href="./areas.html">Áreas de Prácticas</a></p>
+              <hr>
+              <p><a href="./poliPrivacidad.html">Políticas de Privacidad</a></p>
+              <hr>
+              <p><a href="./consultas.html">Necesito Asesoramiento</a></p>
+              <br><br>
+          </div>
+          <div class="sectorFooter col">
+              <h2>Contacto</h2>
+              <br>
+              <p style="line-height:1.2em">Lunes a Viernes de 8:00 a 20:30hs<br>Avenida Las Brisas 34, Buenos Aires<br>011 500 1234<br>info@carteryasociados.com</p>
+          </div>  
+      </div><!--fin row-->
+      <br><br>
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./style/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

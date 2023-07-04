@@ -1,0 +1,297 @@
+* {
+    font-family: 'Playfair Display', serif;
+    
+ }
+
+
+#navbar{
+    padding: 1em;
+}
+
+
+
+body{
+    background-color: rgb(65, 64, 62);
+    color: rgb(255,255,255);
+    text-align: center;
+    
+ }
+
+ h1{
+    font-weight: bolder;
+ }
+
+ .fondoBlanco{
+    background-color: #ffffff;
+    color:rgb(65, 64, 62);
+ }
+
+
+ .fondoGris{
+    background: #41403e;
+    color:#ffffff;
+}
+
+
+#logo{
+    max-width: 350px;
+    align-items: left;
+}
+
+ .fotoBanner{
+    width: 100%;
+
+ }
+ 
+ .sectionTitle{
+    padding: 1.5em;
+    margin-top: 2em;
+ }
+
+ span{
+    color:rgb(239, 189, 51);
+    font-size: larger;
+ }
+
+
+
+ .cards{
+    background: #ffffff;
+    color:rgb(65,64,62);
+    max-width: 350px;
+    padding: 1em;
+    margin: 1em;
+    
+ }
+
+ul{
+    margin: 1.5em;
+} 
+
+p{
+    font-size:large;
+    font-weight: bold;
+}
+
+.enlaceConsultas{
+    padding: 2em;
+}
+
+
+
+
+/*-----------------------------Selectores de pseudoselectores-----------------------------------*/
+
+a {
+    color:  rgb(65, 64, 62);
+    text-decoration: none;
+    padding: 1em;
+
+}
+
+a:visited {
+    color: rgb(135,135,134);
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button{
+    background-color: rgb(239, 189, 51);
+    line-height:3em; 
+    padding: 1em; 
+    border-color: none;
+    border-radius: 3em;
+  
+}
+
+.card-text{
+    font-size: medium;
+}
+
+.cardEquipo{
+   margin-top: 1.5em; 
+   margin-bottom: 1.5em;
+}
+
+.imgEquipo{
+    opacity: 0.2;/*opacidad de los elementos. Cuanta cantidad de luz deja pasar el elemento*/
+    transition: 500ms;
+}
+
+.imgEquipo:hover{
+    opacity: 1;
+    box-shadow: 5px 5px 25px 5px#000; /*box-shadow: inset 0 0 5px black; sombra interna de un elemento, negra con una extension de 5px*/
+ 
+}
+
+
+.card-body h3, .card-body p{
+    color:rgb(65, 64, 62);
+}
+
+
+.infoExperiencia{
+    padding: 2em;
+}
+
+.infoExperiencia h3{
+    line-height: 2em;
+
+}
+
+.infoExperiencia p{
+    line-height: 1.5em;
+}
+
+.contCardsEstudio{
+   padding-top: 2em;
+}
+
+.cardEstudio{
+    
+    background: #ffffff;
+    color:rgb(65,64,62);
+    min-width: 240px;
+    max-width:fit-content ;
+    margin: 1em;
+}
+
+.modal{
+    color:#41403e;
+}
+
+.enlaceConsultas{
+    margin-top: 2em;
+}
+
+.infoAbono{
+    margin:0em auto;
+    padding-bottom: 3em;
+}
+
+
+
+.formasPago{
+    width:100%;
+    height:650px;
+    padding-top: 1em;
+    line-height: 2em;
+    color:rgb(65, 64, 62);
+    background-color: #ffffff;
+    margin: 1em 0;
+}
+
+.formasPago h2{
+    padding: 0.8em;
+}
+
+
+.formasPago p{
+    font-size: medium;
+    text-align: left;
+    margin-left: 4em;
+    line-height: 1em;
+}
+
+.formasPago h6{
+    margin-bottom: 2em;
+}
+
+.formulario{
+    width: 100%;
+    height: 650px;
+    line-height: 1em;
+    background-color: #ffffff;  
+     
+}
+
+.formulario h2{
+    margin-bottom: 1em;
+}
+
+.formulario legend, .formulario p{
+    color: rgb(65, 64, 62);
+}
+
+.formulario input {
+    width: 80%;
+    height: 3em;
+    padding: 0em 3em;
+    
+}
+
+.formulario textarea{
+    width: 80%;
+    padding: 0 3em;
+}
+
+
+
+#acepto{
+    height: 20px;
+}
+
+.formulario  button{
+    width: 25%;
+    background-color: #ffffff;
+    line-height: 2em;
+    border-radius: 0;
+    margin:2em;
+
+} 
+
+.politica {
+    width: 100%;
+}
+
+.politica p{
+    text-align: justify;
+    margin:3em;
+    
+}
+
+.politica h3 {
+    padding: 2em;
+}
+
+
+
+/*------------------------------------footer----------------------------------------*/
+.sectorFooter{
+    padding:3em;
+}
+
+.sectorFooter a{
+    color:#ffffff;
+}
+
+hr {
+    color: rgb(239, 189, 51);
+    size: 80%;
+    
+}
+
+
+#piePagina{
+    background: rgb(65,64,62);
+    color:#ffffff;
+}
+
+
+
+
+/*contenedor padre
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content:space-between;
+    margin-top: 1em;
+    margin-right: 2em;
+    flex-wrap:wrap;
+}
+*/
