@@ -2,8 +2,8 @@
 <h2 align="center">Sitio Web para Estudio Jurídico Ficticio</h2>
 
 <h3>Descripción del Proyecto</h3>
-<em>código finalizado✔️</em>
-<hr>
+<em>Código finalizado✔️</em>
+
 <p>Aplicación de conocimientos adquiridos para desarrollar sitios web responsive.<br> 
 Replicamos página de https://piazzayasociados.com.ar/.
 Creada por https://mocapestudio.com/.</p>
