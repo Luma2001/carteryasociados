@@ -1,5 +1,5 @@
 <em># carteryasociados</em>
-<h2>Sitio Web para Estudio Juridico Ficticio.</h2>
+<h2 align="center">Sitio Web para Estudio Juridico Ficticio</h2>
 <p>Visitar sitio: https://luma2001.github.io/carteryasociados/</p> <br>
 <p>Aplicación de conocimientos adquiridos. 
 Diseño Responsive con Bootstrap.<br>
