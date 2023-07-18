@@ -25,6 +25,6 @@ Creada por https://mocapestudio.com/.</p>
   <h5>Contacto</h5>
   <h5>Hacé tu Consulta</h5>  
 </ul>
-<h3>Autoras:</h3>
+<h3>Autoras: 👷‍♀️ 👷‍♀️</h3>
 <p>Carina Corredera: https://github.com/cari-corredera</p> 
 <p>Lucina Quilcate: https://github.com/luma2001</p>
