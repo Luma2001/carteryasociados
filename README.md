@@ -6,8 +6,10 @@
 Replicamos página de https://piazzayasociados.com.ar/.
 Creada por https://mocapestudio.com/.</p>
 <h3>Acceso al Código</h3>
-<p>Visitar sitio: https://luma2001.github.io/carteryasociados/</p> 
-<h3 align="center">Tecnologías Utilizadas</h3>
+<p> https://github.com/Luma2001/carteryasociados.git</p>
+<h3>Visitar Sitio:</h3> 
+<p>https://luma2001.github.io/carteryasociados/</p> 
+<h3>Tecnologías Utilizadas:</h3>
 <ul>
   <li>HTML5</li>
   <li>CSS3</li>
