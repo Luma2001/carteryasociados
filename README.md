@@ -27,4 +27,4 @@ Creada por https://mocapestudio.com/.</p>
 </ul>
 <h3>Autoras: 👷‍♀️ 👷‍♀️</h3>
 <p>Carina Corredera: https://github.com/cari-corredera</p> 
-<p>Lucina Quilcate: https://github.com/luma2001</p>
+<p>Luciana Quilcate: https://github.com/luma2001</p>
