@@ -17,11 +17,11 @@ Creada por https://mocapestudio.com/.</p>
 </ul>
 <h3>Contenido del Sitio</h3>
 <ul>
-  <h6>Inicio</h6> 
-  <h6>Quiénes Somos</h6>
-  <h6>Áreas Prácticas</h6>
-  <h6>Contacto</h6>
-  <h6>Hacé tu Consulta</h6>  
+  <h5>Inicio</h5> 
+  <h5>Quiénes Somos</h5>
+  <h5>Áreas Prácticas</h5>
+  <h5>Contacto</h5>
+  <h5>Hacé tu Consulta</h5>  
 </ul>
 <h3>Autoras:</h3>
 <p>Carina Corredera: https://github.com/cari-corredera</p> 
