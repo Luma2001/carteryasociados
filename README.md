@@ -1,6 +1,8 @@
 <em>#carteryasociados</em>
 <h2 align="center">Sitio Web para Estudio Jurídico Ficticio</h2>
 
+![imagen](https://github.com/Luma2001/carteryasociados/assets/114626233/80dbe9d4-e5e2-4698-b824-5177f667e4de)
+
 <h3>Descripción del Proyecto</h3>
 <em>Código finalizado✔️</em>
 
